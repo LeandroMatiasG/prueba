@@ -2,8 +2,7 @@ import './style.css'
 
 import {showResult} from './ShowResult'
 
-import imgUrl from './viteLogo.png'
-document.getElementById('hola').src = imgUrl
+
 
 document.querySelector('#app').innerHTML = `
   <div>
