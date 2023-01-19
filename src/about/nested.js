@@ -1,10 +1,10 @@
 
 import {showResult} from '../ShowResult'
-import viteLogo from '../assets/viteLogo.png'
+
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <img src='${viteLogo}' alt='viteLogo'
+  
     <h1>Calculadora1</h1>
     <input type="text" id="numero1" placeholder="inserte numero 1">
     <input type="text" id="numero2" placeholder="inserte numero 2">

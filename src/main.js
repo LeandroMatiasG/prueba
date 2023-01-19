@@ -1,7 +1,7 @@
 import './style.css'
 
 import {showResult} from './ShowResult'
-import viteLogo from './assets/viteLogo.png'
+
 
 
 document.querySelector('#app').innerHTML = `
@@ -13,7 +13,6 @@ document.querySelector('#app').innerHTML = `
     <input type="text" id="operacion" placeholder="inserte la operación">
     <div class="card">
       <button id="btn" type="button">Calcular</button>
-      <img src='${viteLogo}' alt='viteLogo'
     </div>
     <p id="showRes"></p>
   </div>
