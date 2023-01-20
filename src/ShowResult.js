@@ -1,4 +1,4 @@
-import { suma, resta, multiplicacion, divicion } from "./funciones";
+import { suma} from "./funciones";
 
 export function showResult(element, num1, num2, op) {
   let resultado = 0;
